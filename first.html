@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>loginpage</title>
+    </head>
+    <body background="assignments/background_image.jpeg">
+        <h1 style="color: white;text-align: center;">
+            <img src="assignments/icon.svg" style="width: 40px;height: 40px;"> PATTERNFLY
+        </h1>
+        <p style="text-align:center;color:white;font-family:Arial;font-size: 12px;"><b>
+            Please enter your correct username and password to login to this page</b><br><br>
+        </p>
+        <div style="text-align: center;background-color: white; border: 2px solid black;
+        margin: 20px;padding: 20px;width: 340px;height: 350px;align-content: center;">
+            <select id="language" name="language" style="color:black;">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <h3 style="color:black;">Log In to Your Account</h3>
+            <input id="details" name="userdetails" 
+            placeholder="Email or phone or username" required><br><br>
+            <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+            <input type="checkbox" id="keeplogged" name="keeplogged">
+            <label for="keeplogged"style="font-size:12px;">Keep me logged in for 30 days</label>
+            <a href="#" style="font-size:12px;">Forgot Password?</a><br><br><br>
+            <button type="submit" style="background-color:rgb(51, 147, 226);" width="100px">Log In</button>
+            <br><br><br>
+            Need an account?<a href="#">Sign Up</a>
+
+        </div>
+    </body>
+</html>
